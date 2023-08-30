@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة مكافأة نهاية الخدمة</title>
+    <link rel="stylesheet" href="styleoo.css">
+    <script src="gratuity.js"></script>
+
+</head>
+<body>
+    <button id="languageButton" onclick="changeLanguage()">English</button>
+    <div class="container">
+        <h1>حاسبة مكافأة نهاية الخدمة</h1>
+        <form>
+            <label for="startDate">تاريخ بدء العمل</label>
+            <input type="date" id="startDate" name="startDate"><br><br>
+
+            <label for="endDate">تاريخ نهاية العمل</label>
+            <input type="date" id="endDate" name="endDate"><br><br>
+
+            <label for="lastBasicWage">الراتب الشهري الأساسي</label>
+            <input type="number" id="lastBasicWage" name="lastBasicWage"><br><br>
+
+            <button type="button" onclick="calculateGratuity()">احسب</button>
+        </form>
+
+        <div id="result">
+            <p id="gratuityAmount"></p>
+            <p id="gratuityDescription"></p>
+        </div>
+
+        <footer>
+            <p>وفقاً لنص المادة (٣٩) من قانون العمل العماني ٢٠٠٣/٣٥</p>
+            <p>القاضي/ عزان الكمالي ©</p>
+        </footer>
+    </div>
+</body>
+</html>
