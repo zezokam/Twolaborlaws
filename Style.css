@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Khalid";
-  src: url("https://github.com/zezokam/Twolaborlaws/blob/main/Fonts/Khalid.ttf") format("truetype");
+  src: url("https://raw.githubusercontent.com/zezokam/Twolaborlaws/main/Fonts/Khalid.ttf") format("truetype");
 }
 
 * {
@@ -26,7 +26,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   margin-top: 20px;
 }
 
@@ -39,32 +38,14 @@ body {
   background-color: #4CAF50;
   color: white;
   font-family: "Khalid", serif;
-  padding: 20px 40px;
+  padding: 15px 30px;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   transition: background-color 0.3s ease-in-out;
 }
 
 .button-container button[type=button]:hover {
   background-color: #45a049;
-}
-
-footer {
-  width: 100%;
-  background-color: #616060;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  font-size: 14px;
-  color: white;
-  padding: 5px 0;
-}
-
-footer p {
-  margin: 0;
-  padding: 0;
 }
