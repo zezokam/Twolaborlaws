@@ -93,6 +93,11 @@ button[type=button]:hover {
   margin-bottom: 10px;
 }
 
+@font-face {
+  font-family: "Khalid";
+  src: url("https://raw.githubusercontent.com/zezokam/Twolaborlaws/main/Fonts/Khalid.ttf") format("truetype");
+}
+
 footer {
   width: 100%;
   background-color: #616060;
