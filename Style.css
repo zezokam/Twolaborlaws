@@ -22,19 +22,12 @@ body {
   margin-top: 20px;
 }
 
-.button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.button-container a {
+a {
   margin: 10px;
   text-decoration: none;
 }
 
-.button-container button[type=button] {
+button[type=button] {
   background-color: #4CAF50;
   color: white;
   font-family: "Khalid", serif;
@@ -46,6 +39,6 @@ body {
   transition: background-color 0.3s ease-in-out;
 }
 
-.button-container button[type=button]:hover {
+button[type=button]:hover {
   background-color: #45a049;
 }
