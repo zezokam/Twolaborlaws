@@ -62,6 +62,7 @@ input[type=number] {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .button-container a {
@@ -73,11 +74,12 @@ input[type=number] {
   background-color: #4CAF50;
   color: white;
   font-family: "Khalid", serif;
-  padding: 15px 30px;
+  padding: 20px 40px;
   border: none;
-  border-radius: 4px;
+  border-radius: 30px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .button-container button[type=button]:hover {
