@@ -62,5 +62,5 @@ function changeLanguage() {
   var languageButton = document.getElementById("languageButton");
   
   // Redirect to index.html page
-  window.location.href = "index.html";
+  window.location.href = "old_law.html";
 }
