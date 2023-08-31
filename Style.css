@@ -42,6 +42,8 @@ main {
 a {
   margin: 10px;
   text-decoration: none;
+  display: block; /* Separate choices into different lines */
+  font-size: 24px; /* Adjust font size as desired */
 }
 
 footer {
