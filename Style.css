@@ -49,7 +49,6 @@ a {
 .choice-description {
   font-size: 9px; /* Adjust the font size as desired */
   color: #555; /* Adjust the text color as desired */
-  margin: 35px 0; /* Increase margin for spacing between choices */
   margin-top: 5px; /* Adjust the margin to control spacing */
   position: absolute;
   top: 100%; /* Position it below the choice */
