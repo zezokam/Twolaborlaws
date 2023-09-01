@@ -42,11 +42,7 @@ a {
   text-decoration: none;
   font-size: 20px; /* Adjust choices font size */
   position: relative; /* Add this property for positioning */
-}
-
-/* Add margin-top to the second choice (القانون القديم) */
-a:nth-child(2) {
-  margin-top: 30px; /* Adjust the margin as desired */
+  margin-top: 30px;
 }
 
 /* ... (other CSS rules) ... */
