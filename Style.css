@@ -42,6 +42,7 @@ a {
   margin: 35px 0; /* Increase margin for spacing between choices */
   text-decoration: none;
   font-size: 20px; /* Adjust choices font size */
+  position: relative; /* Add this property for positioning */
 }
 
 /* ... (other CSS rules) ... */
@@ -50,6 +51,10 @@ a {
   font-size: 9px; /* Adjust the font size as desired */
   color: #555; /* Adjust the text color as desired */
   margin-top: 5px; /* Adjust the margin to control spacing */
+  position: absolute;
+  top: 100%; /* Position it below the choice */
+  left: 50%; /* Center it horizontally */
+  transform: translateX(-50%); /* Center it perfectly */
 }
 
 footer {
