@@ -52,6 +52,7 @@ a {
   position: relative; /* Change to relative positioning */
   top: 5px; /* Adjust the distance between choice and description */
   text-align: center; /* Center the text horizontally */
+  margin-bottom: 15px; /* Add space below the choice description */
 }
 
 
