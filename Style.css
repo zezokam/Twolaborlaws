@@ -44,6 +44,11 @@ a {
   position: relative; /* Add this property for positioning */
 }
 
+/* Add margin-top to the second choice (القانون القديم) */
+a:nth-child(2) {
+  margin-top: 30px; /* Adjust the margin as desired */
+}
+
 /* ... (other CSS rules) ... */
 
 .choice-description {
