@@ -47,7 +47,7 @@ a {
 /* ... (other CSS rules) ... */
 
 .choice-description {
-  font-size: 14px; /* Adjust the font size as desired */
+  font-size: 9px; /* Adjust the font size as desired */
   color: #555; /* Adjust the text color as desired */
   margin-top: 5px; /* Adjust the margin to control spacing */
 }
