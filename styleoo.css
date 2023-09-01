@@ -127,3 +127,44 @@ footer p {
     flex-direction: column;
   }
 }
+
+/* Rest of your CSS rules remain the same... */
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  font-family: "Khalid", serif;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 14px !important;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    flex-direction: column;
+  }
+  input[type=date],
+  input[type=number],
+  button {
+    width: 100%;
+  }
+  
+  .button-container {
+    flex-direction: column;
+  }
+}
+
