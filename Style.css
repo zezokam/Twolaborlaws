@@ -44,6 +44,13 @@ a {
   font-size: 20px; /* Adjust choices font size */
 }
 
+/* ... (other CSS rules) ... */
+
+.choice-description {
+  font-size: 14px; /* Adjust the font size as desired */
+  color: #555; /* Adjust the text color as desired */
+}
+
 footer {
   width: 100%;
   background-color: #616060;
