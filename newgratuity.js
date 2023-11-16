@@ -30,20 +30,32 @@ function calculateGratuity() {
   var yearsText, monthsText, daysText;
   if (yearsOfService == 1) {
     yearsText = "سنة";
-  } else {
+  } else if (yearsOfService == 2) {
+    yearsText = "سنتين";
+  } else if (yearsOfService >= 3 && yearsOfService <= 10) {
     yearsText = "سنوات";
+  } else {
+    yearsText = "سنة";
   }
 
   if (monthsOfService == 1) {
     monthsText = "شهر";
-  } else {
+  } else if (monthsOfService == 2) {
+    monthsText = "شهرين";
+  } else if (monthsOfService >= 3 && monthsOfService <= 10) {
     monthsText = "أشهر";
+  } else {
+    monthsText = "شهر";
   }
 
   if (daysOfService == 1) {
     daysText = "يوم";
-  } else {
+  } else if (daysOfService == 2) {
+    daysText = "يومين";
+  } else if (daysOfService >= 3 && daysOfService <= 10) {
     daysText = "أيام";
+  } else {
+    daysText = "يوم";
   }
 
   // Display result
